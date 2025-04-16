@@ -28,15 +28,12 @@ namespace Algorithm
                 
             //}
             //5 square
-            for (int i = 1; i <= 10; i *= i) 
+            for (int i = 1; i <= 10; i++) 
             {
-                Console.WriteLine(i);
+                
+                Console.WriteLine($"{i} squared is {i * i}");
             }
-            while (i <= 10)
-            {
-                Console.WriteLine();
-            }
-
+           
         }
        
     }
